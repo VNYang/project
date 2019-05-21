@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>注册登录-Mtime时光网</title>
+		<link rel="shortcut icon" href="img/index/favicon.ico" />
+		<link rel="stylesheet" type="text/css" href="css/common.css"/>
+		<link rel="stylesheet" type="text/css" href="css/commonHeader.css"/>
+		<link rel="stylesheet" type="text/css" href="css/commonFooter.css"/>
+		<link rel="stylesheet" type="text/css" href="css/sianIn.css"/>
+		<script src="js/jquery-3.1.1.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/commonHeader.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/commonFooter.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/jquery.idcode.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/jquery.cookie.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/signIn.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<div id="wwrap-header">
+			<div id="wrap-header">
+				<ul>
+					<li><a href="index.html">首页</a></li>
+					<li><a class="hover" href="index.html">购票</a></li>
+					<li class="market"><a class="hover" href="index.html">正版商城</a><em></em></li>
+					<li><a class="hover" href="index.html">新闻</a></li>
+					<li><a class="hover" href="index.html">发现</a></li>
+					<li><a class="hover" href="index.html">社区</a></li>
+					<i class="supindex"></i>
+				</ul>
+				<h1 id="mtimelogo">
+					<a href="index.html" title="时光网">
+						时光网，让电影遇见生活。
+					</a>
+				</h1>
+				<div id="denglu">
+					<a href="signIn.html">登录</a>
+					<em></em>
+					<a href="signIn.html">注册</a>
+				</div>
+				<div id="app-link">
+					<i class="line_l"></i>
+					<a href="#">
+						<em class="appicon"></em>
+						<span>
+							App下载
+						</span>
+						<b></b>
+					</a>
+					<i class="line_r"></i> 
+					<div class="headtip1">
+						<div class="erweima">
+							
+						</div>
+						<p>扫描下载客户端</p>
+						<span>手机购票  方便实惠</span>
+					</div>
+				</div>
+				<div id="shopcar">
+					<div class="shopcaricon"></div>
+					<span class="thingcounts">
+						0
+					</span>
+					<div class="headtip2">
+						<p>您的购物车还是空的，赶快选购哦。</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="wrap_content">
+			<div class="regin_out">
+				<div class="regin_line"></div>
+				<div class="regin_inner fix">
+					<div class="regin_left">
+						<h5>新会员注册</h5>
+						<dl>
+							<dd>
+								<div class="reg_txt ">
+									<input type="text" id="reg_mobile" placeholder="常用手机号">
+									<p class="reg_errtxt" id="reg_mobile_msg"></p>
+								</div>
+							</dd>
+							<dd>
+								<div class="reg_txt ">
+									<input type="password" id="reg_password" maxlength="20" placeholder="密码 (6-20位字母与数字、符号组合)">
+									<p class="reg_errtxt" id="reg_password_msg">密码强度太低，请使用6-20位字母与数字、符号的组合</p>
+									<div id="levelDiv" class="password_box">
+										<p id="levelTip">密码强度</p>
+										<p>
+											<i class="ps1">&nbsp;</i>
+											<i class="ps2">&nbsp;</i>
+											<i class="ps3">&nbsp;</i>
+										</p>
+									</div>
+									<div class="password_tog " id="showPwdBtn"></div>
+								</div>
+							</dd>
+							<dd>
+								<div class="reg_txt reg_vcode">
+									<input type="text"  id ="Txtidcode" class ="txtVerification" placeholder="点击获取验证码">
+									<p class="reg_errtxt" id="reg_vcode_msg">请输入正确验证码</p>
+								</div>
+								<span id="vcodeRegion" class="reg_vcodeimg">
+									<span id="idcode" title="点击切换"></span>
+								</span>
+							</dd>
+							<dd>
+								<div class="reg_txt">
+									<input type="text" id="reg_smscode" placeholder="短信验证码">
+									<p class="reg_errtxt" id="reg_smscode_msg">验证码错误</p>
+									<a id="reg_smscodeBtn" class="get_telcode">
+										获取验证码
+									</a>
+								</div>
+							</dd>
+							<dd>
+								<div class="bind_pro">
+									<span id="reg_policy" class="on"></span>
+									<a href="http://feature.mtime.com/help/policy.htm" target="_blank">已同意《Mtime时光网服务条款》</a>
+								</div>
+							</dd>
+							<dt class="reg_btn">
+								<a id="mobileRegisterBtn" class="btn_blue">注 册</a>
+							</dt>
+						</dl>
+					</div>
+					<div class="regin_right">
+						<h5>会员登录</h5>
+						<form id="loginForm" method="post">
+							<dl>
+								<dd>
+									<div class="reg_txt ">
+										<input type="text" id="loginEmailText" name="email" placeholder="登录邮箱 / 手机号码">
+										<p class="reg_errtxt" id="loginEmailText_msg">
+											请使用邮箱 / 手机号或 万达电影 账号登录 
+										</p>
+									</div>
+								</dd>
+								<dd>
+									<div class="reg_txt ">
+										<input type="password" id="hidepassword" class="c_a5" style="display:none;">
+										<input type="password" id="loginPasswordText" placeholder="请输入密码" autocomplete="off">
+										<p class="reg_errtxt" id="hidepassword_msg">
+											请输入正确密码！
+										</p>
+									</div>
+								</dd>
+								<dd>
+									<div class="bind_pro">
+										<a id="forget_password" href="#" class="fr">
+											忘记密码
+										</a>
+										<span id="isAutoSign" class="on"></span>
+										记住我
+									</div>
+								</dd>
+								<dd>
+									<p class="err_txt" id="login_errtxt"></p>
+								</dd>
+								<dt class="reg_btn">
+									<a id="loginButton" class="btn_blue">
+										登 录
+									</a>
+								</dt>
+							</dl>
+						</form>
+					</div> 
+				</div>
+			</div>
+		</div>
+		<div id="footer_border"></div>
+		<div id="wrap_footer">
+			<div class="footer_top">
+				<div class="foot_logo">
+					<ul>
+						<li class="logo_li"><a href="#" title="时光网"></a></li>
+						<li><a href="#">加入我们</a><a href="#" class="rightA">联系我们</a></li>
+						<li><a href="#">站务论坛</a><a href="#" class="rightA">问题反馈</a></li>
+						<li><a href="#">社区准则</a><a href="#" class="rightA">网站地图</a></li>
+						<li><a href="#">隐私政策</a><a href="#" class="rightA">English</a></li>
+						<i class="fo_line"></i>
+					</ul>
+				</div>
+				<div class="fotmap">
+					<ul style="width:42px;">
+						<li>栏目</li>
+						<li class="bigger"><a href="http://news.mtime.com/">新闻</a></li>
+						<li class="bigger"><a href="http://theater.mtime.com/">影院</a></li>
+						<li class="bigger"><a href="http://mall.mtime.com">商城</a></li>
+						<li class="bigger"><a href="http://www.mtime.com/community/">社区</a></li>
+					</ul>
+					<ul style="width:185px;" class="ul_center">
+						<li>推荐</li>
+						<li class="bigger"><a href="#">观影指南</a><a href="#" class="ml30">电影票房</a></li>
+						<li class="bigger"><a href="#">时光对话</a><a href="#" class="ml30">新片预告</a></li>
+						<li class="bigger"><a href="#">特色榜单</a><a href="#" class="ml30">电影猜猜猜</a></li>
+						<li class="bigger"><a href="#">全球拾趣</a><a href="#" class="ml30">卡片大富翁</a></li>
+					</ul>
+					<ul class="ul_right">
+						<li>关注我们</li>
+						<li><a href="#" class="sina" title="微博">微博</a></li>
+						<li><a id="aWeiXinPicButton" class="weixin" title="微信">微信</a></li>
+						<li><a href="#" class="rss" title="RSS">RSS</a></li>
+					</ul>
+					<div id="divWeiXinPicContainer" class="my_layer"> 
+						<em class="l_arrow">&nbsp;</em>
+						<div class="inner">
+							<i></i>
+							<p>扫描二维码，微信实时关注时光网</p>
+						</div>
+					</div>
+					<i class="fo_line"></i>
+				</div>
+				<div class="fotweek" id="fotweek">
+					<dl>  
+						<dt class="fix">
+							<span class="fr">第188期</span>
+							<strong>时光周刊</strong>
+						</dt>  
+						<dd>    
+							<a href="#" title="时光周刊">    
+								<img src="img/index/footer_TimeMagzine.jpg" width="170" height="80" alt="时光周刊">
+							</a>  
+						</dd>  
+						<dd class="input">    
+							<input id="iptEMail" type="text" value="邮箱地址" class="c_a5">    
+								<a id="btnSubscribe" href="#">订阅</a>  
+						</dd>
+					</dl>
+				</div>
+				<div class="fothr">
+					<dl>
+						<dt>
+							<strong>手机购票</strong> 
+							方便 实惠
+						</dt>
+						<dd>
+							<a href="#">
+								<i></i>
+							</a>
+						</dd>
+						<dd>扫描二维码 下载客户端</dd>
+					</dl>
+				</div>
+			</div>
+			<div class="footer_bottom">
+				<p><span>北京动艺时光网络科技有限公司</span>
+					Copyright 2006-2017 Mtime.com Inc. All rights reserved.<br>
+					<a href="#">京ICP证050715号</a>
+					<a href="#" class="mr12">网络视听许可证0108265号</a>
+					<a href="#" class="mr12">网络文化经营许可证</a>
+					<a href="#" class="mr12">广播电视节目制作经营许可证(京)字第1435号</a>
+					<span>京公网安备：110105000744号</span>
+				</p>
+				<div class="credible">
+					<a href="#" title="可信网站" class="credibler"></a>
+					<a href="#" title="诚信网站" class="goodfaith"></a>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,249 @@
+#wrap-header i.supindex{
+	width: 0;
+    height: 0;
+    overflow: hidden;
+    border-bottom: 5px solid #fff;
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+    position: absolute;
+    bottom: 0;
+}
+
+#wwrap-header{
+	width: 100%;
+    height: 60px;
+	position: fixed;
+	top: 0;
+	z-index: 6;
+}
+
+#wrap-header{
+	width: 100%;
+    height: 60px;
+    padding: 0 88px 0 20px;
+    z-index: 5;
+	background: #1d2736;
+}
+
+#wrap-header ul{
+	position: absolute;
+}
+
+#wrap-header ul li{
+	float: left;
+}
+
+#wrap-header ul li a{
+	line-height: 60px;
+	font-size: 14px;
+	color: #fff;
+	font-weight: bold;
+	margin-right: 30px;
+}
+
+#wrap-header ul li.market{
+	position: relative;
+}
+
+#wrap-header ul li.market em{
+	position: absolute;
+	width: 28px;
+	height: 14px;
+	background: url(../img/index/head.png) -165px 0 no-repeat;
+	top: 15px;
+	right: 4px;
+}
+
+#wrap-header ul i.supindex{
+    left: 7px;
+}
+
+#wrap-header ul li a.hover{
+	color: #c8c8c8;
+	font-weight: normal;
+}
+
+#wrap-header ul li a.hover:hover{
+	color: #fff;
+}
+
+#wrap-header h1{
+	width: 117px;
+    height: 36px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin: -18px 0 0 -58px;
+}
+
+#wrap-header h1 a{
+	display: block;
+	width: 117px;
+    height: 36px;
+	text-indent: -9000px;
+	background: url(../img/index/head.png) 0 -315px no-repeat;
+}
+
+#denglu{
+	float: right;
+	position: relative;
+	height: 60px;
+	width: 168px;
+}
+
+#denglu a{
+	font-size: 14px;
+	color: #c8c8c8;
+	margin: 0 23px;
+	line-height: 60px;
+}
+
+#denglu a:hover{
+	color: #fff;
+}
+
+#denglu em{
+	height: 14px;
+	width: 0;
+	border-right: 1px solid #303947;
+}
+
+#app-link{
+	width: 124px;
+	height: 60px;
+	float: right;
+	position: relative;
+	text-align: center;
+}
+
+#app-link .appicon{
+	display: block;
+	width: 13px;
+	height: 20px;
+	background: url(../img/index/head.png) -54px -45px no-repeat;
+	position: absolute;
+	top:21px;
+	left: 18px;
+}
+
+#app-link b{
+	display: block;
+	position: absolute;
+	top: 28px;
+	right: 18px;
+	background: url(../img/index/head.png) -140px 0 no-repeat;
+	width: 7px;
+	height: 4px;
+}
+
+#app-link i.line_l{
+	display: block;
+	height: 60px;
+	position: absolute;
+	left: 0;
+	border-right: solid 1px #303947;
+	border-left: solid 1px #141c28;
+}
+
+#app-link i.line_r{
+	display: block;
+	height: 60px;
+	position: absolute;
+	right: 0;
+	border-right: solid 1px #303947;
+	border-left: solid 1px #141c28;
+	top: 0;
+}
+
+#app-link span{
+	color: #fff;
+	font-size: 14px;
+	line-height: 60px;
+}
+
+#app-link .headtip1{
+	width: 170px;
+	height: 210px;
+	position: absolute;
+	top: 63px;
+	right: -20px;
+	-webkit-box-shadow: #666 0px 0px 5px;
+	-moz-box-shadow: #666 0px 0px 5px;
+	box-shadow: #666 0px 0px 5px;
+	display: none;
+	border-top: none;
+	background: #fff;
+	opacity: 1;
+}
+
+#app-link .headtip1 .erweima{
+	width: 115px;
+	height: 115px;
+	margin: 23px 30px 0;
+	background: url(../img/index/head.png) 0 -196px no-repeat;
+}
+
+#app-link .headtip1 p{
+	font-family: "黑体";
+	margin-top: 14px;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+#app-link .headtip1 span{
+	margin-top: 8px;
+	font-size: 14px;
+	color: #666;
+	line-height: 0;
+}
+
+#shopcar {
+	width: 62px;
+	height: 62px;
+	position: absolute;
+	right: 20px;
+	background: #e83729;
+	cursor: pointer;
+}
+
+#shopcar .shopcaricon{
+	background: url(../img/index/head.png) 0 -45px no-repeat;
+    width: 26px;
+    height: 20px;
+    position: absolute;
+    left: 18px;
+    top: 21px;
+}
+
+#shopcar span.thingcounts{
+	display: block;
+	background: #fff;
+    width: 18px;
+    height: 18px;
+    line-height: 18px;
+    font-size: 13px;
+    color: #e83729;
+    text-align: center;
+    border-radius: 50%;
+    position: absolute;
+    left: 34px;
+    top: 9px;
+    border: 3px solid #e83729
+}
+
+#shopcar .headtip2{
+	width: 350px;
+    border-top: 3px solid #e83729;
+    right: 0;
+    background: #fff;
+    box-shadow: 0 3px 5px rgba(0,0,0,.25);
+    position: absolute;
+    top: 60px;
+    display: none;
+}
+
+#shopcar .headtip2 p{
+	text-align: center;
+    color: #999;
+    padding: 100px 0;
+}

@@ -1,0 +1,304 @@
+body{
+	background: url(../img/signIn/bg.jpg);
+	font: 14px/150% helvetica,"微软雅黑","microsoft yahei",Verdana,Lucida,arial,sans-serif,"黑体";
+    position: relative;
+    display: block;
+    min-width: 1200px;
+    zoom: 1;
+}
+
+a{
+	cursor: pointer;
+}
+
+dt,dd{
+	display: inline-block;
+}
+
+.regin_out{
+    background: #fff;
+    width: 1000px;
+    margin: 135px auto 45px;
+    border-radius: 6px;
+    position: relative;
+    padding-bottom: 30px;
+    min-height: 500px;
+}
+
+.regin_line{
+    background: linear-gradient(#fff,#dedede 10%,#dedede 90%,#fff);
+    width: 1px;
+    height: 482px;
+    overflow: hidden;
+    position: absolute;
+    left: 50%;
+    top: 50px;
+}
+
+.regin_inner {
+    padding: 30px 65px;
+}
+
+.regin_left {
+    float: left;
+    width: 380px;
+}
+
+.regin_out .regin_inner h5 {
+    font-size: 30px;
+    line-height: 1em;
+    text-align: center;
+    padding-bottom: 10px;
+    font-weight: 400;
+}
+
+.reg_txt {
+    position: relative;
+    border: 1px solid #aaa;
+    zoom: 1;
+    height: 49px;
+    width: 375px;
+    margin-top: 23px;
+    border-radius: 4px;
+    vertical-align: baseline;
+    display: inline-block;
+    z-index: 1;
+}
+
+.reg_txt input {
+    background: none;
+    height: 21px;
+    border: none;
+    padding: 14px;
+    line-height: 21px;
+    font-size: 14px;
+    width: 345px;
+    font-family: "微软雅黑","microsoft yahei";
+    vertical-align: middle;
+    outline: 0;
+}
+
+.reg_txt .reg_errtxt {
+    width: 345px;
+    position: absolute;
+    left: -1px;
+    top: 50px;
+    display: none;
+    color: red;
+    line-height: 22px;
+    padding: 0 15px;
+    font-size: 12px;
+}
+
+.reg_txt.reg_err {
+    border: 1px solid red;
+    height: 49px;
+}
+
+.reg_txt.reg_focus{
+	border-color: #6a953b;
+	box-shadow: 0 0 5px #6a953b;
+	color: #000;
+}
+
+.password_box {
+    color: #949494;
+    position: absolute;
+    right: 10px;
+    top: 11px;
+    font-size: 12px;
+}
+
+.password_box i {
+    background: #c5c5c5;
+    overflow: hidden;
+    display: inline-block;
+    width: 14px;
+    height: 4px;
+    margin-right: 3px;
+    margin-top: 3px;
+}
+
+.password_tog {
+    background: url(../img/signIn/password_look.png) no-repeat 0 0;
+    width: 25px;
+    height: 17px;
+    position: absolute;
+    right: 75px;
+    top: 50%;
+    margin-top: -9px;
+    cursor: pointer;
+}
+
+.password_tog.on{
+	background-position: 0 -17px;
+}
+
+
+.password_box.password_l i.ps1 {
+    background: #ca4004;
+}
+
+.password_box.password_m i.ps1, .password_box.password_m i.ps2 {
+    background: #e7ae1f;
+}
+
+.password_box.password_h i {
+    background: #5c961d;
+}
+
+.reg_txt.reg_vcode {
+    width: 210px;
+}
+.reg_txt.reg_err {
+    border: 1px solid red;
+    height: 49px;
+}
+
+.reg_txt.reg_vcode {
+    width: 210px;
+}
+
+#Txtidcode{
+	width: 210px;
+}
+
+#idcode{
+	width: 100px;
+    height: 50px;
+    margin: 0 12px;
+    background-size: 50% auto;
+    vertical-align: middle;
+    font-size: 30px;
+    line-height: 50px;
+    text-align: center;
+    cursor: pointer;
+    border: solid 1px #aaa;
+    border-radius: 5px;
+}
+
+.get_telcode {
+    background: #f6f6f6;
+    height: 34px;
+    border: 1px solid #b6b6b6;
+    position: absolute;
+    right: 10px;
+    top: 7px;
+    font-size: 14px;
+    line-height: 34px;
+    padding: 0 15px;
+    color: #333;
+    border-radius: 3px;
+}
+
+.reg_selsex {
+    position: relative;
+    zoom: 1;
+    font-size: 14px;
+    padding-top: 25px;
+}
+
+.reg_selsex .checkend {
+    color: #333;
+}
+
+.reg_selsex span {
+    padding-right: 15px;
+    color: #666;
+}
+
+.reg_selsex p {
+    position: absolute;
+    right: 0;
+    top: 25px;
+    color: red;
+    font-size: 12px;
+}
+
+.reg_selsex .reg_checkbox {
+    background: url(../img/signIn/2.png) no-repeat -30px -231px;
+    width: 20px;
+    height: 17px;
+    position: relative;
+    zoom: 1;
+    display: inline-block;
+    margin-left: 10px;
+    vertical-align: middle;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.reg_selsex .reg_checkbox.on{
+	background-position: -5px -231px;;
+}
+
+.reg_selsex .ico_female, .reg_selsex .ico_male {
+    background: url(../img/signIn/2.png) no-repeat -5px -210px;
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    position: relative;
+    zoom: 1;
+    overflow: hidden;
+    vertical-align: middle;
+    margin-left: 6px;
+    opacity: .8;
+    filter: alpha(opacity=80);
+}
+
+.reg_selsex .ico_male{
+	background-position: -21px -210px;
+}
+
+.bind_pro {
+    padding-top: 20px;
+    font-size: 14px;
+}
+
+.bind_pro a {
+    color: #0085e5;
+    line-height: 24px;
+}
+
+.bind_pro span.on {
+    background-position: -2px 0;
+}
+.bind_pro span {
+    background: url(../img/signIn/2.png) no-repeat -2px -24px;
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    position: relative;
+    zoom: 1;
+    overflow: hidden;
+    vertical-align: middle;
+    margin-right: 6px;
+    cursor: pointer;
+}
+
+.reg_btn {
+    text-align: center;
+    padding-top: 15px;
+}
+
+.btn_blue {
+    background: #0081bc;
+    width: 257px;
+    height: 53px;
+    display: inline-block;
+    position: relative;
+    zoom: 1;
+    overflow: hidden;
+    font-size: 20px;
+    line-height: 53px;
+    border-radius: 27px;
+    color: #fff;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+.regin_right{
+	float: right;
+	width: 380px;
+}

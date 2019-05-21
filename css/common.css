@@ -1,0 +1,50 @@
+
+body, dd, div, dl, dt, em, fieldset, form, h1, h2, h3, h4, h5, h6, input, legend, li, ol, p, td, textarea, th, tr, ul {
+    margin: 0;
+    padding: 0;
+}
+
+.fl{
+	float: left;
+}
+
+.fr{
+	float: right;
+}
+
+body{
+	font-family: "微软雅黑";
+	color: #333;
+	min-width: 1200px;
+	overflow-x: hidden;
+}
+
+ul,li{
+	list-style: none;
+	display: inline-block;
+}
+
+b,strong{
+	font-weight: normal;
+}
+
+a{
+	text-decoration: none;
+	display: inline-block;
+	color: #333;
+	cursor: pointer;
+}
+
+i,em{
+	display: inline-block;
+	font-style: normal;
+}
+
+span,i,em{
+	display: inline-block;
+}
+
+img{
+	display: block;
+	margin-bottom: -4px;
+}

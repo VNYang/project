@@ -1,0 +1,52 @@
+[
+	{
+		"name":"星球大战 楚巴卡",
+		"info":"会说话的毛绒玩具",
+		"price":"￥149",
+		"big_img":["img/goodsDetial/bigImg_chubaka.jpg"],
+		"serve":"订单满99元免运费",
+		"end_date":"2017/3/31",
+		"detial":"img/goodsDetial/canshu_chubaka.jpg",
+		"type":"toy"
+	},
+	{
+		"name":"HT 侠盗一号贝兹·马尔巴斯",
+		"info":"头部可动 把玩性强",
+		"price":"￥110",
+		"big_img":["img/goodsDetial/bigImg_xiadao.jpg"],
+		"serve":"订单满99元免运费",
+		"end_date":"2017/3/31",
+		"detial":"img/goodsDetial/detialImg_xiadao.jpg",
+		"type":"toy"
+	},
+	{
+		"name":"星球大战 风暴兵长袖T恤",
+		"info":"亲肤面料 细致工艺 舒适柔软",
+		"price":"￥99-119",
+		"big_img":["img/goodsDetial/bigImg_starWarTX.jpg","img/goodsDetial/bigImg_starWarTX2.jpg","img/goodsDetial/bigImg_starWarTX3.jpg","img/goodsDetial/bigImg_starWarTX4.jpg","img/goodsDetial/bigImg_starWarTX5.jpg"],
+		"serve":"订单满99元免运费",
+		"end_date":"",
+		"detial":"img/goodsDetial/canshu_starWarTX.jpg",
+		"type":"cloth"
+	},
+	{
+		"name":"星球大战暴风兵3D背包",
+		"info":"帝国忠仆 暴风兵形象 炫酷3D设计",
+		"price":"￥399",
+		"big_img":["img/goodsDetial/bigImg_starWarPack.jpg","img/goodsDetial/bigImg_starWarPack2.jpg","img/goodsDetial/bigImg_starWarPack3.jpg"],
+		"serve":"订单满99元免运费",
+		"end_date":"",
+		"detial":"img/goodsDetial/canshu_starWarPack.jpg",
+		"type":"pack"
+	},
+	{
+		"name":"影时光风暴兵3D手机壳",
+		"info":"双层设计 3D立体 贴合孔位 一体成型",
+		"price":"￥78-88",
+		"big_img":["img/goodsDetial/bigImg_phone.jpg","img/goodsDetial/bigImg_phone2.jpg","img/goodsDetial/bigImg_phone3.jpg"],
+		"serve":"订单满99元免运费",
+		"end_date":"",
+		"detial":"img/goodsDetial/canshu_phone.jpg",
+		"type":"phone"
+	}
+]

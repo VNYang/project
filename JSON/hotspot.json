@@ -1,0 +1,58 @@
+[
+	{
+		"img":"img/index/hotspot/1.jpg",
+		"title":"美国制片人工会奖公布提名",
+		"describe":"《死侍》入围年度十佳 将与《爱乐之城》竞争",
+		"type":"normal",
+		"tag":"normal"
+	},
+	{
+		"img":"img/index/hotspot/2.jpg",
+		"title":"《金刚狼3》入围柏林电影节竞赛单元",
+		"describe":"第二批片单公布 张震合作萨布新片入选",
+		"type":"normal",
+		"tag":"normal"
+	},
+	{
+		"img":"img/index/hotspot/3.jpg",
+		"title":"作曲家巴迪布雷格曼病逝享年86岁",
+		"describe":"曾为《睡衣游戏》《天生冒险家》配乐",
+		"type":"normal",
+		"tag":"normal"
+	},
+	{
+		"img":"img/index/hotspot/4.jpg",
+		"title":"第70届英国电影学院奖提名名单出炉",
+		"describe":"《爱乐之城》11项领跑 金球影帝高斯林入围",
+		"type":"normal",
+		"tag":"normal"
+	},
+	{
+		"img":"img/index/hotspot/5.jpg",
+		"title":"管虎痛批当今导演缺失荣誉感",
+		"describe":"三地导演齐聚大理 陆川热聊“生存与突围”",
+		"type":"pic_bags",
+		"tag":"normal"
+	},
+	{
+		"img":"img/index/hotspot/6.jpg",
+		"title":"小本《蝙蝠侠》电影又生变数",
+		"describe":"电影拍摄延期数月 2018暑期上映成疑",
+		"type":"normal",
+		"tag":"normal"
+	},
+	{
+		"img":"img/index/hotspot/7.jpg",
+		"title":"抖森发脸书为金球奖说错话道歉",
+		"describe":"被批自我陶醉 解释“提南苏丹只为致敬”",
+		"type":"video",
+		"tag":"normal"
+	},
+	{
+		"img":"img/index/hotspot/8.jpg",
+		"title":"专访《斯隆女士》女主杰西卡·查斯坦",
+		"describe":"影片让她感觉透支 讨厌被贴“劳模”标签",
+		"type":"video",
+		"tag":"exclusive"
+	}
+]

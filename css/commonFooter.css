@@ -1,0 +1,298 @@
+#footer_border{
+	height: 4px;
+	width: 100%;
+	background: url(../img/index/foot.png) center top no-repeat;
+}
+
+#wrap_footer{
+	width: 100%;
+	background: #f7f7f7;
+}
+
+i.fo_line{
+    background: url(../img/index/foot.png) -495px -9px no-repeat;
+    width: 1px;
+    height: 157px;
+    overflow: hidden;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.footer_top{
+    width: 1200px;
+    margin: 0 auto;
+    padding-top: 40px;
+    font-size: 13px;
+    height: 205px;
+}
+
+.foot_logo,.fotmap{
+    position: relative;
+    display: inline;
+    min-height: 157px;
+    float: left;
+}
+
+.foot_logo{
+	width: 200px;
+}
+
+.foot_logo ul{
+	padding: 0 20px;
+}
+
+.foot_logo ul li.logo_li{
+    padding-bottom: 10px;
+}
+
+.foot_logo .logo_li a{
+    background: url(../img/index/head.png) no-repeat;
+    width: 136px;
+    height: 44px;
+    display: block;
+    line-height: 0;
+    font-size: 0;
+    overflow: hidden;
+}
+
+.foot_logo ul li{
+	line-height: 1.8em;
+}
+
+.foot_logo ul li a.rightA{
+	margin-left: 30px;
+}
+
+#wrap_footer a:hover{
+	color: rgb(31,125,215);
+}
+
+.fotmap{
+    width: 501px;
+    position: relative;
+}
+
+.fotmap ul{
+    float: left;
+    display: inline;
+    margin-left: 55px;
+    line-height: 2em;
+}
+
+.fotmap ul.ul_right{
+	width: 52px;
+	height: 140px;
+}
+
+.fotmap ul.ul_center li{
+	width: 185px;
+}
+
+.fotmap li.bigger{
+	font-size: 16px;
+	line-height: 2em;
+}
+
+.fotmap li a.ml30{
+	margin-left: 30px;
+}
+
+.fotmap .sina,.fotmap .weixin,.fotmap .rss{
+	background: url(../img/index/foot.png) -140px -9px no-repeat;
+    width: 30px;
+    height: 30px;
+    display: block;
+    line-height: 0;
+    font-size: 0;
+    overflow: hidden;
+    margin-top: 8px;
+}
+
+.fotmap .weixin{
+	background-position: -170px -9px;
+}
+
+.fotmap .rss{
+	background-position: -200px -9px;
+}
+
+.my_layer{
+    background: #fff;
+    border: 1px solid #e7e7e7;
+    box-shadow: 0 0 3px rgba(0,0,0,.2);
+    position: absolute;
+    left: 445px;
+    top: -21px;
+    z-index: 17;
+    display: none;
+}
+
+.fotmap a{
+	cursor: pointer;
+}
+
+.fotmap .my_layer em.l_arrow {
+    background: url(../img/index/foot.png) -140px -60px no-repeat;
+    width: 21px;
+    height: 40px;
+    position: absolute;
+    left: -20px;
+    top: 50%;
+    margin-top: -20px;
+}
+
+.my_layer .inner{
+	padding: 15px;
+    width: 195px;
+}
+
+.inner i{
+    background: url(../img/index/foot.png) -640px -9px no-repeat;
+    width: 151px;
+    height: 151px;
+    display: block;
+    margin: 15px auto;
+}
+
+#fotweek{
+    width: 280px;
+    float: left;
+    display: inline;
+    min-height: 157px
+}
+
+dl dt{
+	display: block;
+}
+
+.fotweek dl{
+    width: 172px;
+    margin: 0 auto;
+}
+
+.fotweek dt span{
+	color: #7d7d7d;
+    padding-top: 3px;
+}
+
+.fr{
+	float: right;
+}
+
+.fotweek strong{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.fotweek dd{
+	margin-top: 10px;
+}
+
+.fotweek .input {
+    background: url(../img/index/foot.png) -330px -34px no-repeat;
+    width: 172px;
+    height: 25px;
+    position: relative;
+    zoom: 1;
+    padding-top: 2px;
+}
+
+.input input{
+    font-family: "微软雅黑","microsoft yahei";
+    font-size: 12px;
+    padding: 2px;
+    vertical-align: middle;
+    outline: 0;
+    background: 0 0;
+    width: 90px;
+    margin-left: 12px;
+    border: none;
+    height: 22px;
+    color: #a5a5a5
+}
+
+.input a{
+    background: url(../img/index/foot.png) -330px -9px no-repeat;
+    width: 54px;
+    height: 25px;
+    position: absolute;
+    right: 0;
+    top: 1px;
+    text-align: center;
+    color: #fff;
+    font-family: 14px;
+    line-height: 25px;
+}
+
+#wrap_footer .fotweek .input a:hover{
+	color: #fff;
+}
+
+.fothr{
+    width: 205px;
+    float: left;
+    display: inline;
+    min-height: 157px;
+    text-align: center;
+}
+
+.fothr dt{
+    color: #7d7d7d
+}
+
+.fothr dt strong {
+    color: #333;
+    line-height: 1em;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.fothr dd{
+	margin-top: 12px;
+}
+
+.fothr dd i{
+    background: url(../img/index/foot.png) -795px -9px no-repeat;
+    width: 99px;
+    height: 99px;
+    margin: 0 auto;
+    display: block;
+}
+
+.footer_bottom{
+    text-align: center;
+    font-family: Verdana;
+    padding: 30px 0 20px;
+    line-height: 2em;
+    font-size: 12px;
+    color: #7e7e7f;
+}
+
+.footer_bottom a,.footer_bottom span{
+	margin: 0 6px;
+	color: #7e7e7f;
+}
+
+.credible {
+    text-align: center;
+    padding-top: 12px;
+}
+
+.credible .credibler,.credible .goodfaith{
+	background: url(../img/index/foot.png) 0 -60px no-repeat;
+    display: inline-block;
+    width: 68px;
+    height: 25px;
+    position: relative;
+    zoom: 1;
+    vertical-align: middle;
+    margin-right: 15px;
+    overflow: hidden;
+}
+
+.credible .goodfaith{
+	background-position: -68px -60px;
+	width: 70px;
+}
